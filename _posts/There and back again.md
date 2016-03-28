@@ -2,7 +2,7 @@
 layout: post
 title:  "There and back again..."
 subtitle: "starting up across the atlantic"
-date:   2016-03-24
+date:   2016-03-24 15:48:46 +0200
 categories: [startups, consulting, legal, international, expat]
 ---
 
