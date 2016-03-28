@@ -1,17 +1,24 @@
 /* =Base */
 body {
-    font-family: 'Inconsolata', ;
+    font-family: 'FreightSans Light', ;
     color: $iron;
     background-color: $dorian;
+}
+
+h1,h2,h3,.logo {
+    font-family: 'FreightSans Bold', ;
 }
 
 a {
     color: $cloudy;
     font-weight: bold;
     text-decoration: none;
+    padding: 5px 3px 3px 3px;
 
     &:hover {
-
+        background-color: lighten(#e7ab33, 25%);
+        &:before {
+        }
     }
 }
 
@@ -19,6 +26,10 @@ p {
     font-size: 20px;
     color: $iron;
     line-height: 32px;
+}
+
+li {
+    line-height: 1.5;
 }
 
 img {
