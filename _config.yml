@@ -1,0 +1,22 @@
+# Site settings
+title: Proto
+description: >
+    Use the right building blocks for your startup. We are software craftsmen who help you decide what to build, and how.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://buildproto.com" # the base hostname & protocol for your site
+
+author:
+  fullname: Andrew Roper
+  github: elropero
+  twitter: buildproto
+  # disqus: your_disqus_username
+
+# google_analytics: 'UA-XXXXXXXX-X'
+
+# Build settings
+markdown: kramdown
+
+theme:
+  footer_text: >
+   Proudly published with [Spelt](http://spelt.io)

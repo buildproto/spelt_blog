@@ -1,0 +1,7 @@
+---
+production:
+  route53_enabled: false
+  access_key_id: AKIAJ7IXAO4VVL6K4ANA
+  bucket_name: elropero1
+  type: s3
+  bucket_region: us-east-1
