@@ -13,12 +13,11 @@ a {
     color: $cloudy;
     font-weight: bold;
     text-decoration: none;
-    padding: 5px 3px 3px 3px;
-
+    border-bottom: 2px dotted lighten(#e7ab33, 25%);
+    padding-top: 5px;
+    
     &:hover {
         background-color: lighten(#e7ab33, 25%);
-        &:before {
-        }
     }
 }
 
@@ -89,7 +88,7 @@ strong {
 }
 
 .logo {
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 700;
     color: $iron;
     display: block;
