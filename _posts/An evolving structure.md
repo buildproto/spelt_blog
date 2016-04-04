@@ -1,8 +1,12 @@
 ---
 layout: post
-title:  "There and back again..."
-subtitle: "starting up across the atlantic"
-date:   2016-03-24 15:48:46 +0200
+title:  "Evolving our structure"
+subtitle: "Learning more about tax treaties, stock options, and revenue sources"
+date: 2016-03-24 15:48:46 +0200
+author:
+  fullname: Andrew Roper
+  twitter: oneropero
+  disqus: buildproto
 categories: [startups, consulting, legal, international, expat]
 ---
 
@@ -18,7 +22,12 @@ Creating up a startup with bases in two countries is complicated. Don’t undere
 
 In our case, with the US and the Netherlands as our bases, it’s probably not advisable to setup a subsidiary in the beginning. Better to spend time building your actual business than iterating on legal and accounting formulations. This also reduces the amount of uncertainty when consulting with local agents who probably have never dealt with international constructions before. You’re not Apple or Google yet.
 
+Here's how we originally set things up:
+=> [10,947 easy steps to setting up a company](/2014/01/26/10-947-easy-steps-to-setting-up-a-company.html)
+
 See below for a somewhat detailed breakdown of the evolution of Proto’s legal entities, and why these changes have come about.
+
+
 
 # Introduction
 
@@ -29,13 +38,21 @@ Sean and I started our consulting firm Proto in September of 2013. You can read 
 # Recap
 
 * Sean lives in New Jersey, I live in Amsterdam. We are the co-founders.
+
 * The original contributing team of Niels, Kim and Auke all live in Amsterdam. 
+
 * We wanted to setup a simple US entity (i.e. an LLC) however I also needed a BV (Inc equivalent in the Netherlands) so that I could a) house my 30% ruling [link] to the BV, and b) sign contracts and manage payroll on the NL side. 
+
 * Our plan was always to pay out all revenues to ourselves and our partners; we did not intend to turn a profit.
+
 * We did not have a clear picture of how tax liability would level out between the entities, but we assumed that if the US entity was a parent to the Dutch one, then any gains on side would be canceled out by losses on the other side, or vice versa. 
+
 * We also did not know how the transfers between entities were supposed to work -- shouldn't we just book an inter-company transfer in our US and NL ledgers? Turns out the BV needed to invoice the Inc for expenses (my payroll as well as that of my Dutch colleagues) in spite of the fact that the BV was a subsidiary.
+
 * The legal and financial advisors we spoke with were unclear as to whether we could preserve the tax benefits of the NL<=> US tax treaty if we setup an LLC as a parent to a BV. This was an uncommon setup. 
+
 * So, because the path was already trodden, we setup a Delaware C-Corporation and a subsidiary Dutch BV. C-Corporations are subject to double taxation [link] but we felt we had no choice.
+
 * A side effect of this setup is that your US corporate tax return is fucking complicated and expensive to have done (nearly $5k!! for our first year).
 
 # Aside on partner equity

@@ -1,20 +1,19 @@
 <header class="header">
     <div class="navigation">
-        <div class="logo">{{ site.title }}</div>
+        
+        <a href="{{ '/' | prepend: site.baseurl }}">
+            <div class="logo">
+                <img src="http://www.buildproto.com/img/logo.svg"/>
+            </div>
+        </a>
 
         <ul class="menu">
-            <li class="menu__entry"><a href="{{ site.url }}" target="_blank">Home</a></li>
-            <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Blog</a></li>
+            <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Blog home</a></li>
+            <li class="menu__entry"><a href="{{ site.url }}" target="_blank">Website</a></li>
         </ul>
     </div>
 
     <ul class="social-links">
-        {% if site.author.github %}
-            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-github"></i>
-            </a>
-        {% endif %}
-
         {% if site.author.twitter %}
             <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
                 <i class="fa fa-twitter"></i>

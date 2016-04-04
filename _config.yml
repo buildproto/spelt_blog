@@ -7,10 +7,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://buildproto.com" # the base hostname & protocol for your site
 
 author:
-  fullname: Andrew Roper
-  github: elropero
+  fullname: The Proto Team
+  # github: elropero
   twitter: buildproto
-  # disqus: your_disqus_username
+  disqus: buildproto
 
 # google_analytics: 'UA-XXXXXXXX-X'
 

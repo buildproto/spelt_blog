@@ -5,7 +5,7 @@ body {
     background-color: $dorian;
 }
 
-h1,h2,h3,.logo {
+h1,h2,h3,.logo,strong {
     font-family: 'FreightSans Bold', ;
 }
 
@@ -92,6 +92,10 @@ strong {
     font-weight: 700;
     color: $iron;
     display: block;
+    img {
+        margin: 0;
+        height: 36px; 
+    }
 }
 
 .menu {
@@ -146,6 +150,13 @@ strong {
     color: $cloudy;
 }
 
+.page-title__author {
+    font-size: 18px;
+    line-height: 2;
+    color: $cloudy;
+    font-family: "FreightSans Light";
+}
+
 .post-title {
     margin-bottom: 110px;
 }
@@ -175,12 +186,24 @@ strong {
     color: $iron;
 }
 
+.post-teaser__subtitle {
+    font-size: 14px;
+    color: $cloudy;
+}
+
 .post-teaser__date {
     font-size: 16px;
     float: right;
     vertical-align: middle;
     color: $cloudy;
 }
+
+.post-teaser__author {
+    font-size: 14px;
+    color: $cloudy;
+    float: right;
+}
+
 
 .empty-post-list {
     font-size: 22px;

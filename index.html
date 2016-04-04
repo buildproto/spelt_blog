@@ -7,10 +7,19 @@ subtitle: Our experiences as a startup consulting company
 <ul class="list-posts">
     {% for post in site.posts %}
         <li class="post-teaser">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <span class="post-teaser__title">{{ post.title }}</span>
-                <span class="post-teaser__date">{{ post.date | date_to_string }}</span>
+            	<div>
+	                <a href="{{ post.url | prepend: site.baseurl }}">
+	                	<span class="post-teaser__title">{{ post.title }}</span>
+		                <span class="post-teaser__date">{{ post.date | date_to_string }}</span>
+	                </a>
+	            </div>
+	            <div>
+	                <span class="post-teaser__subtitle">{{ post.subtitle }}</span>
+	                <span class="post-teaser__author">by {{ post.author.fullname }}</span>
+	            </div>
             </a>
+
+
         </li>
     {% endfor %}
 </ul>

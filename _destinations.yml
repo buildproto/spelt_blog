@@ -1,7 +1,7 @@
 ---
 production:
-  route53_enabled: false
-  access_key_id: AKIAJ7IXAO4VVL6K4ANA
-  bucket_name: elropero1
+  route53_enabled: true
+  access_key_id: AKIAI2CNLDCBMQ2VLJYA
+  bucket_name: words.buildproto.com
   type: s3
   bucket_region: us-east-1
