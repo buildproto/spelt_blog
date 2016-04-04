@@ -12,7 +12,7 @@ author:
   twitter: buildproto
   disqus: buildproto
 
-# google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-47387800-1'
 
 # Build settings
 markdown: kramdown
